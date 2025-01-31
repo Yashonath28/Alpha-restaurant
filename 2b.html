@@ -1,0 +1,19 @@
+<html>
+<body>
+ <h2>BOM Example</h2>
+ <script>
+ // Accessing BOM objects
+ console.log("Window width:", window.innerWidth);
+ console.log("Document title:", document.title);
+ console.log("Navigator app name:", navigator.appName);
+ console.log("History length:", history.length);
+ // Modifying BOM objects
+ window.alert("Hello, BOM!"); // Displays an alert
+ // Redirecting using location object
+ function redirectToGoogle() {
+ window.location.href = "https://www.google.com";
+ }
+ </script>
+ <button onclick="redirectToGoogle()">Go to Google</button>
+</body>
+</html>
